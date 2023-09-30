@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="screen">
+      <h1></h1>
+    </div>
+    <table>
+      <tr>
+        <td>
+          <button class="num" onclick="showOnScreen(event)">7</button>
+        </td>
+        <td><button class="num" onclick="showOnScreen(event)">8</button></td>
+        <td><button class="num" onclick="showOnScreen(event)">9</button></td>
+        <td>
+          <button class="op" onclick="showOnScreen(event)">+</button>
+        </td>
+      </tr>
+      <tr>
+        <td><button class="num" onclick="showOnScreen(event)">4</button></td>
+        <td><button class="num" onclick="showOnScreen(event)">5</button></td>
+        <td><button class="num" onclick="showOnScreen(event)">6</button></td>
+        <td>
+          <button class="op" onclick="showOnScreen(event)">-</button>
+        </td>
+      </tr>
+      <tr>
+        <td><button class="num" onclick="showOnScreen(event)">1</button></td>
+        <td><button class="num" onclick="showOnScreen(event)">2</button></td>
+        <td><button class="num" onclick="showOnScreen(event)">3</button></td>
+        <td>
+          <button class="op" onclick="showOnScreen(event)">*</button>
+        </td>
+      </tr>
+      <tr>
+        <td><button class="clear" onclick="clearScreen()">C</button></td>
+        <td><button class="num" onclick="showOnScreen(event)">0</button></td>
+        <td><button class="equal" onclick="calcResult(event)">=</button></td>
+        <td>
+          <button class="op" onclick="showOnScreen(event)">/</button>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
